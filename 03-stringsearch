@@ -1,0 +1,26 @@
+// let str = "Radhe Krishna";
+// console.log(str.indexOf("Krishna"));
+
+
+// let str = "radhe krishna";
+// console.log(str.lastIndexOf("krishna"));
+
+
+// let str = "Jai Shree Krishna";
+// console.log(str.search("Krishna")); 
+
+
+// let str = "Radhe Shyam";
+// console.log(str.includes("Shyam")); 
+
+
+// let str = "Radhe Radhe";
+// console.log(str.startsWith("Radhe"));
+
+let quote = "Radhe Radhe Shyam Radhe";
+
+console.log(quote.includes("Shyam"));     
+console.log(quote.indexOf("Radhe"));        
+console.log(quote.lastIndexOf("Radhe"));    
+console.log(quote.startsWith("Radhe"));     
+console.log(quote.endsWith("Radhe"));       
