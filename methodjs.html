@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Methods in object</h2>
+<script>
+  let car = {
+    brand: "tesla",
+    speed: 100,
+    boost: function(){
+      this.speed+=50;
+      return "speed is now:" + this.speed + "km/h";
+    }
+  };
+  console.log(car.boost());
+</script>
+
+</body>
+</html>

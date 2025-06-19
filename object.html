@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1> javacript object</h1>
+    <h2>Deleting a property</h2>
+
+    <p id=""demo"></p>
+    <script>
+      const person = {
+        firstname: "dev",
+        lastname: "choudhary",
+        age: 20,
+        evecolor: "black"
+            };
+            delete person ["age"];
+            document.getElementByID("demo").innerHTML = 
+            person.firstname + "is" + person.age + "years old.";
+    </script>
+  </body>
+</html>
