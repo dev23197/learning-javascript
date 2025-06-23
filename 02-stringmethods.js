@@ -28,6 +28,9 @@
 
 
 //replacing content
-let text = " wonderful sky ";
-let newtext = text.replace( "sky", "blue");
-console.log(newtext);
+// let text = " wonderful sky ";
+// let newtext = text.replace( "sky", "blue");
+// console.log(newtext);
+
+
+
