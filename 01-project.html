@@ -1,0 +1,55 @@
+ <!-- <!DOCTYPE html>
+<html>
+<head> 
+  <title>Greet me app</title>
+</head>
+<body>
+<h2>welcome to greet me</h2>
+
+<input type="text" id="nameInput" placeholder="Enter your name"/>
+
+<button onclick="greetUser()">Greet</button>
+<p id="greetingOutput"></p>
+
+<script>
+
+  function greetuser(){
+    let name = document.getElementById("nameInput").value;
+
+    if(name.trim() === ""){
+      document.getElementById("greetingOutput").innerText="please enter your name!";
+    } else {
+           document.getElementById("greetingOutput").innerText = "hello" + name + "!🙃";
+    }
+  }
+</script>
+</body> 
+</html> -->
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Greet me app</title>
+</head>
+<body>
+
+<h2>Welcome to greet me</h2>
+
+<input type="text" id="nameInput" placeholder="Enter your name" />
+<button onclick="greetUser()">Greet</button>
+
+<p id="greetingOutput">getting output</p>
+
+<script>
+  function greetUser() {
+    let name = document.getElementById("nameInput").value;
+
+    if (name.trim() === "") {
+      document.getElementById("greetingOutput").innerText = "Please enter your name!";
+    } else {
+      document.getElementById("greetingOutput").innerText = "Hello " + name + "! 😊";
+    }
+  }
+</script>
+
+</body>
+</html>

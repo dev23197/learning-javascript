@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=""UTF-8>
+    <tile>Age Checker App</tile>
+
+  </head>
+
+<body>
+<h2>Mini age Checker</h2>
+<p>Enter your age:</p>
+<input type="number" id="ageInput" placeholders="e.g. ,21"/>
+<button onclic="CheckAge()">CheckAge</button>
+
+<p id="resultOutput" style="font-weight: bold; color: green;"></p>
+<script>
+  
+    function checkAge() {
+      let age = document.getElementById("ageInput").value;
+      age = Number(age);
+
+      if (isNaN(age) || age <= 0) {
+        document.getElementById("resultOutput").innerText = "Please enter a valid age.";
+      } else if (age < 18) {
+        document.getElementById("resultOutput").innerText = "👶 You are a minor.";
+      } else if (age <= 60) {
+        document.getElementById("resultOutput").innerText = "🧑 You are an adult.";
+      } else {
+        document.getElementById("resultOutput").innerText = "👴 You are a senior citizen.";
+      }
+    }
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Age Checker App</title>
+</head>
+<body>
+  <h2>🧠 Mini Age Checker</h2>
+  <p>Enter your age:</p>
+  <input type="number" id="ageInput" placeholder="e.g., 21" />
+
+  <button onclick="checkAge()">Check Age</button>
+
+  <p id="resultOutput" style="font-weight: bold; color: green;"></p>
+
+  <script>
+    function checkAge() {
+      let age = document.getElementById("ageInput").value;
+      age = Number(age);
+
+      if (isNaN(age) || age <= 0) {
+        document.getElementById("resultOutput").innerText = "Please enter a valid age.";
+      } else if (age < 18) {
+        document.getElementById("resultOutput").innerText = "👶 You are a minor.";
+      } else if (age <= 60) {
+        document.getElementById("resultOutput").innerText = "🧑 You are an adult.";
+      } else {
+        document.getElementById("resultOutput").innerText = "👴 You are a senior citizen.";
+      }
+    }
+  </script>
+</body>
+</html>
